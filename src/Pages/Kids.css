@@ -1,0 +1,40 @@
+.kids-div{
+display: grid;
+grid-template-columns: repeat(4, 20rem);
+column-gap: 2rem;
+row-gap: 2rem;
+margin: 4rem 0 0 0;
+}
+.title{
+    margin: 2rem 0 0 0 ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.item-div{
+
+     background-color: rgb(223, 221, 221);
+    padding: 0.6rem;
+    border: 1px solid white;
+    border-radius: 10px;   
+}
+
+#title{
+    margin: 1rem  0 0 1rem;
+    font-size: 1rem;
+}
+#price{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    margin: 0.6rem  0 0 1rem;
+}
+
+#kid-img{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#button{
+    margin: 1rem 0 0 1rem ;
+    width: 15rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+
+}

@@ -1,0 +1,49 @@
+.cart-div{
+    margin: 5%;
+    display: flex;
+   
+}
+.single-img{
+    width: 80%;
+    border-radius: 5%;
+}
+.single-price{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;   
+  color: slategrey;
+  margin: 15px 0 0 20px;
+}
+.single-name{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategrey;
+    margin: 0 0 0 20px;
+}
+.off{
+    border: 1px solid rgb(219, 140, 111);
+    font-size:small;
+    margin-left: 10px;
+    padding: 5px;
+    background-color:  rgb(219, 140, 111);
+    border-radius: 20%;
+    color: black;
+}
+.select{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid white;
+    margin:  0 0 0 20px;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+#cart-button{
+    margin: 50px 0 0 10px;
+    width: 60%;
+   font-size: large;
+   font-family: Arial, Helvetica, sans-serif
+}
+.tags{
+    font-size: 11px;
+    color: gray;
+    margin: 15px 0 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,16 @@
+#item{
+    margin-left: 3rem;
+    color: gray;
+}
+#icon{
+    width: 3rem;
+}
+.bag{
+    width: 30px;
+   cursor: pointer;
+    margin-left: 50px;
+}
+.user{
+    margin-left: 40px;
+    cursor: pointer;
+}

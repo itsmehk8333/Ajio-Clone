@@ -1,0 +1,12 @@
+#women-img{
+    width: 10rem;
+}
+#women-div{
+    display: grid;
+    grid-template-columns: repeat(4,10rem);
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+.h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}

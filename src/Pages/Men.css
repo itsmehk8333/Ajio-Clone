@@ -1,0 +1,8 @@
+#Men-img{
+    width: 5rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    row-gap: 1rem;
+}
