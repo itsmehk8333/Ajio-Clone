@@ -6,10 +6,10 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-     <div  className='container'>
+     <div  className='container-fluid'>
      <nav className="navbar navbar-expand-md bg-light  navbar-static-top">
   <div class="container-fluid">
-    <Link to='/' className='navbar-brand' id='item'> Ajio</Link>
+    <Link to='/' className='  navbar-brand' id='item'> Ajio</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" id='icon' >Menu</span>
     </button>

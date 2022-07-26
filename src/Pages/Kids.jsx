@@ -17,7 +17,7 @@ function Kid() {
           localStorage.setItem("img",e.img)
           localStorage.setItem("price",e.price);
           localStorage.setItem("name", e.name);
-          
+          localStorage.setItem("id", e.id);
        }}
        id="button"
        >Visit item</button>
