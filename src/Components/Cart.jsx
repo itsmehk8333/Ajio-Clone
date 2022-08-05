@@ -47,15 +47,15 @@ className="delete-item"
       </div>
       <div className='payment-div'>
       <h2 style={{margin:"0 0 20px  50px"}}>Order Details</h2>
-     <p className='bagTotal'>Bagtotal <span style={{marginLeft:'10rem'}}>{price} /Rs</span></p>
-     <p className='bagTotal'>Bagdiscount <span style={{marginLeft:'8rem'}}>500 /Rs</span></p>
-     <p className='bagTotal'>Delivery <span style={{marginLeft:'11rem',color:"green"}}>Free</span></p>
-     <p className='bagTotal'>Total Amount <span style={{marginLeft:'8rem'}}>{price - 500} /RS</span></p>
+     <p className='bagTotal'>Bagtotal <span className='span1' >{price} /Rs</span></p>
+     <p className='bagTotal'>Bagdiscount <span className='span2' >500 /Rs</span></p>
+     <p className='bagTotal'>Delivery <span  className='span3'>Free</span></p>
+     <p className='bagTotal'>Total Amount <span className='span4'>{price - 500} /RS</span></p>
      <button className='btn bg-success' id='checkout-btn'>Check out</button>
       </div>
       </div>
       : <div>
-      <img src={emptycart} className="empty-cart" />
+      <img src={emptycart} className="empty-cart"  />
       </div>
     }
     </div>

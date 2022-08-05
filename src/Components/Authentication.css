@@ -1,21 +1,40 @@
 .login-divs{
-width: 30rem;
-padding: 5rem;
+width: 30%;
+padding: 4rem;
 border: 1px solid black;
-margin: 8% 0 0 25%;
+margin: 12% 0 0 25%;
 background-color: cadetblue;
 border-radius: 10px;
 }
 .tag{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0.5rem;
 }
 .inputs{
-    width: 15rem;
+
+    width:1rem4;
     border: 1px solid black;
     border-radius: 10px;
 }
 #signin-button{
-    width:70%   ;
+    width:100% ;
+}
+
+@media only screen and (max-width : 500px) {
+    .tag{
+        font-size: 0.9rem;
+        
+    }
+    .login-divs{
+        margin: 30% 0 0 10%;
+        width: 80%;
+        padding: 2rem;
+    }
+    .inputs{
+        width: 90%;
+    }
+    #signin-button{
+        width: 90%;
+    }
 }

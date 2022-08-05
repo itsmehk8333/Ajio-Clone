@@ -35,10 +35,11 @@ function Navbar() {
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-  <Link to='/Cart'>
-  <img src={bafg}  className="bag"/> 
-  </Link>
-     <Link to='/login'> <img src={user} className='user' /></Link>
+<Link to='/Cart'>
+  <img src={bafg}  className="nav-link" id='bags'/> 
+  </Link> 
+
+     <Link to='/login'> <img src={user} className="nav-link" id='user' /></Link>
     </div>
   </div>
 </nav>

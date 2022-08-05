@@ -5,16 +5,22 @@
 #icon{
     width: 3rem;
 }
-.bag{
-    width: 30px;
+#bags{
+    width: 70px;
    cursor: pointer;
     margin-left: 50px;
+    list-style-type: none;
 }
-.user{
-    margin-left: 40px;
+#user{
+    margin: 10px 0 0 20px;
     cursor: pointer;
 }
 #items{
     color: black;
     font-size: 2rem;
+}
+@media screen and (max-width:500px){
+    #bags{
+        margin:20px 0 0  20px;
+    }
 }

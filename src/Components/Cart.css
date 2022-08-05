@@ -53,5 +53,42 @@ margin: 0 0 0 10vw;
     width:15vw;
 }
 .empty-cart{
-    
+    width: 90%;
+}
+@media only screen and (max-width:500px) {
+
+    .cart-item{
+        width: 95%;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .payment-div{
+        width: 90%;
+        height: inherit;
+    }
+     .span1{
+        margin-left: 24vw;
+     }
+     .span2{
+        margin-left: 17vw;
+     }
+     .span3{
+        margin-left: 25vw;
+     }
+     .span4{
+        margin-left: 15vw;
+     }
+
+     #checkout-btn{
+        margin-top: 1rem;
+width: 60%;
+
+     }
+     .delete-item{
+        margin-left: 2rem;
+     }
+     .cart-img{
+        width: 30%;
+     }
 }

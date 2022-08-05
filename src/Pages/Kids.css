@@ -39,3 +39,14 @@ margin: 10rem 0 0 0;
     font-size: 1vw;
 
 }
+@media only screen and (max-width: 500px){
+    .kids-div{
+        grid-template-columns: repeat(1, 60vw);
+        margin:6rem 0 0 20%;
+
+    }
+    #button{
+        width: 60%;
+        font-size: 1rem;
+    }
+}

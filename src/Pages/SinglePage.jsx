@@ -43,23 +43,15 @@ Dispatch(AddToCart(
     size:document.querySelector(".select").value,
     count: parseInt(1),
     id:id
-
   }
 )
-
 );
 UseClicked(true)
-    }}
-    
-    > Add to Cart</button> :
-
-    
+    }}> Add to Cart</button> :
     <div>
- 
     <br/>
     <button type="button" class="btn btn-secondary btn-lg" disabled id='added'>Added to cart</button>
     </div>
-
    }
     <p className='tags'>HANDPICKED STYLES | ASSURED QUALITY</p>
     </div>

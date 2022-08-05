@@ -29,7 +29,6 @@ useEffect(()=>{
     }
   });
 },[login])
-console.log(login)
   return (
     <div  className="login-div">
 {
